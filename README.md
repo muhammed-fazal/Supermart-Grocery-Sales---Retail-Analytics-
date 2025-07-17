@@ -55,6 +55,36 @@ The dashboard helps Supermart:
 - Expanding premium-priced product offerings.
 
 ---
+## 🛠️ Technical Tools Used
+
+| Tool / Feature        | Purpose                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| **Microsoft Excel**   | Core platform for building the dashboard and performing calculations     |
+| **Power Query**       | Data cleaning, transformation, and column creation (e.g., Week Type)     |
+| **Pivot Tables**      | Aggregating data and creating KPI summaries                              |
+| **Pivot Charts**      | Visualizing trends, comparisons, and distributions                       |
+| **DAX (Power Pivot)** | Creating calculated measures (e.g., YoY %, Profit Margin, Quarterly KPIs)|
+| **Slicers**           | Adding interactivity to filter data by Year, Month, Product, etc.        |
+| **Conditional Formatting** | Highlighting performance metrics (Above Average Years, etc.)        |
+
+---
+
+## 📈 Dashboard Features
+
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **KPI Cards**                    | Displaying key metrics like Total Revenue, Profit, Profit Margin, etc.      |
+| **Year-over-Year Comparison**    | Comparing COGS, Revenue, Quantity, Profit, Margin, and Transactions to LY   |
+| **Monthly Profit Trends**        | Line charts tracking profit performance each month                          |
+| **Quarterly Profit Analysis**    | Visualizing profit trends across Q1, Q2, Q3, and Q4                          |
+| **Above Average Year Detection** | Highlighting years that exceed the overall average performance              |
+| **Profit by Week Type**          | Bar chart showing profit from "First Week", "Mid Month", "End of Month"     |
+| **Profit by Weekday**            | Weekday-level profit performance using horizontal bar charts                |
+| **Slicers for Filtering**        | Enables filtering by year, month, region, or product category               |
+| **Custom Calculated Columns**    | Including Month-Year, Week Type, Weekday, Quarter in Power Query            |
+| **Dynamic Titles and Formatting**| Updating chart titles and color coding based on filter selections           |
+
+
 
 ## 🗂️ Project Files
 
